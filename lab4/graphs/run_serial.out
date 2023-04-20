@@ -1,0 +1,24 @@
+MT_CONF empty: setting default mt options: 0
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1445.78
+MT_CONF empty: setting default mt options: 0
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1933.24
+MT_CONF empty: setting default mt options: 0
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1507.98
+MT_CONF empty: setting default mt options: 0
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1403.35
+MT_CONF empty: setting default mt options: 0
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 147.24
+MT_CONF empty: setting default mt options: 0
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 61.97
+MT_CONF empty: setting default mt options: 0
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 79.58
+MT_CONF empty: setting default mt options: 0
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 84.81
