@@ -1,0 +1,31 @@
+Jacobi_mpi.c: In function 'main':
+Jacobi_mpi.c:16:12: warning: variable 'omega' set but not used [-Wunused-but-set-variable]
+     double omega;    //relaxation factor - useless for Jacobi
+            ^
+Jacobi_mpi.c:14:28: warning: unused variable 'converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per process
+                            ^
+Jacobi_mpi.c:14:9: warning: unused variable 'global_converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per process
+         ^
+Jacobi_mpi.c:287:2: warning: 'scattercounts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  MPI_Gatherv(&(u_previous[1][1]), 1, local_block, &(U[0][0]), scattercounts, scatteroffset, global_block, 0, MPI_COMM_WORLD);
+  ^
+Jacobi_mpi.c:287:2: warning: 'scatteroffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+Jacobi_mpi.c:120:2: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  MPI_Scatterv(&(U[0][0]), scattercounts, scatteroffset, global_block, &(u_current[1][1]), 1, local_block, 0, MPI_COMM_WORLD);
+  ^
+GaussSeidelSOR_mpi.c: In function 'main':
+GaussSeidelSOR_mpi.c:14:28: warning: unused variable 'converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per proce
+                            ^
+GaussSeidelSOR_mpi.c:14:9: warning: unused variable 'global_converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per proce
+         ^
+GaussSeidelSOR_mpi.c:305:2: warning: 'scattercounts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  MPI_Gatherv(&(u_previous[1][1]), 1, local_block, &(U[0][0]), scattercounts, scatteroffset, global_block, 0, MPI_COMM_WORLD);
+  ^
+GaussSeidelSOR_mpi.c:305:2: warning: 'scatteroffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+GaussSeidelSOR_mpi.c:123:2: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  MPI_Scatterv(&(U[0][0]), scattercounts, scatteroffset, global_block, &(u_current[1][1]), 1, local_block, 0, MPI_COMM_WORLD);
+  ^

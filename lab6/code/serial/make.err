@@ -1,0 +1,4 @@
+Jacobi_serial.c: In function 'main':
+Jacobi_serial.c:20:8: warning: unused variable 'converged' [-Wunused-variable]
+  int t,converged=0;
+        ^
