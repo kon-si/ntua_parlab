@@ -1,0 +1,5 @@
+1 4
+(total =  0.6755s)  (per loop =  0.0675s) 32 threads
+
+16 16
+(total =  0.4577s)  (per loop =  0.0458s) 64 threads

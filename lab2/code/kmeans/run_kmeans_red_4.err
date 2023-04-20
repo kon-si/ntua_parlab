@@ -1,0 +1,4 @@
+/var/spool/torque/mom_priv/jobs/494798.localhost.SC: line 22: export: `0-31': not a valid identifier
+/var/spool/torque/mom_priv/jobs/494798.localhost.SC: line 22: export: `0-31': not a valid identifier
+/var/spool/torque/mom_priv/jobs/494798.localhost.SC: line 30: export: `0-31': not a valid identifier
+/var/spool/torque/mom_priv/jobs/494798.localhost.SC: line 30: export: `0-31': not a valid identifier
